@@ -1,6 +1,27 @@
 "use strict";
 
-import fs from "fs";
+//USING PROMISES
+// //using promises
+
+// try {
+//   import fs from "node:fs/promises"
+// const data = await fs.readFile("data.txt", "utf8")
+// console.log(data)
+
+
+// } catch (error) {
+//   console.log(error)
+// }
+
+// //updating a file with promises, try catch, await etc
+
+// try {
+//   await fs.writeFile("data.txt", "Some data!")
+// } catch (error) {
+//   console.log("Error:", error)
+// }
+
+// import fs from "fs";
 
 //SYNCHRONOUS OPERATIONS
 //Append to file - synchronous
